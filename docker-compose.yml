@@ -10,7 +10,8 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=development
+      - BIGE_SECRET=YOURAPISECRETFROM-APIM.BIGE.DEV
+      - NODE_ENV=production
       - PORT=3000
       - MONGO_URL=mongodb://host.docker.internal:27017/books
   

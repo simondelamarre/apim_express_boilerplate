@@ -54,6 +54,27 @@
           "500": {
             "description": "Server error"
           }
+        },
+        "security": {
+          "type": [
+            "apiKey"
+          ],
+          "in": [
+            "header"
+          ],
+          "bearerFormat": [
+            "JWT"
+          ],
+          "name": [
+            "bige-api-key"
+          ],
+          "scopes": [
+            "user",
+            "admmin"
+          ],
+          "rights": [
+            "ADMIN"
+          ]
         }
       }
     },
@@ -86,6 +107,20 @@
           "500": {
             "description": "Server error"
           }
+        },
+        "security": {
+          "type": [
+            "apiKey"
+          ],
+          "in": [
+            "header"
+          ],
+          "bearerFormat": [
+            "JWT"
+          ],
+          "name": [
+            "bige-apim-key"
+          ]
         }
       }
     },
@@ -138,6 +173,20 @@
           "500": {
             "description": "Server error"
           }
+        },
+        "security": {
+          "type": [
+            "apiKey"
+          ],
+          "in": [
+            "header"
+          ],
+          "bearerFormat": [
+            "JWT"
+          ],
+          "name": [
+            "bige-apim-key"
+          ]
         }
       }
     }
